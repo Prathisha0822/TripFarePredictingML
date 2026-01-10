@@ -16,32 +16,6 @@ The final selected model is deployed using a **Streamlit web app** for interacti
 
 ---
 
-## 🧾 Dataset Columns (Sample)
-
-Key columns used:
-- pickup & dropoff datetime
-- pickup & dropoff latitude/longitude
-- passenger_count
-- RatecodeID
-- payment_type
-- total_amount (Target)
-
----
-
-## ✅ Feature Engineering (Created Columns)
-
-The following engineered features are used for prediction:
-
-- `trip_distance` (Haversine formula from pickup/dropoff coords)
-- `trip_duration_min` (dropoff - pickup in minutes)
-- `pickup_datetime_local` (UTC → America/New_York)
-- `pickup_day` (weekday/weekend)
-- `am_pm` (AM/PM)
-- `is_night` (late-night/early morning flag)
-- `pickup_hour`, `pickup_month` (for analysis)
-
----
-
 ## 🎯 Final Model Features & Target
 
 ### Input Features (X)
@@ -74,8 +48,6 @@ Best model selected based on highest **R²** and lowest **RMSE/MAE**.
 ✅ **Random Forest performed best** in this project.
 
 ---
-
-## 💾 Saving the Best Model (joblib)
 
 ## UI Snapshot:
 
