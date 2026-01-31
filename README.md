@@ -51,6 +51,7 @@ Best model selected based on highest **R²** and lowest **RMSE/MAE**.
 
 ## UI Snapshot:
 
-<img width="892" height="828" alt="image" src="https://github.com/user-attachments/assets/713bfe3f-3c68-458a-af6e-7b5a25a99e59" />
+<img width="528" height="486" alt="image" src="https://github.com/user-attachments/assets/c1489b49-4376-4f48-b926-778c2ff05ba4" />
+
 
 
